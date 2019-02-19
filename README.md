@@ -1,5 +1,5 @@
 Written by @colradi for Community Node Super Representative Organization  
-Contact us on Telegram for scripting services t.me/CommunityNode  
+Contact us on Telegram for scripting services [t.me/CommunityNode](https://t.me/CommunityNode)  
 GUI Interface coming soon!
 
 This is a script for airdropping tokens (not TRX) based on votes for Super Representative.
