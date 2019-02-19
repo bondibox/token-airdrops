@@ -70,20 +70,19 @@ Remember you must have sufficient bandwidth or TRX balance to conduct an airdrop
 
 ########################### transaction object example: ########################### 
 
-/*
-{ result: true,
-  code: 0,
-  message: '',
-  transaction:
-   { assetName: '1000322',
-     ownerAddress: 'TNtPJVFFGWYRYXUaa1XJhW6MCoNQzW1nkk',
-     toAddress: 'TXBnjY7CAq39Jj748XLfLd97tXGyknwD1x',
-     amount: 1,
-     contractType: 2,
-     hash: 'a77cadb2722d7489ae9f5007fc88c41fe4fe9cef0de48d01ad684b1144cafb29',
-     time: 1549896394610,
-     data: '' } }
-
+/*  
+{ result: true,  
+  code: 0,  
+  message: '',  
+  transaction: 
+   { assetName: '1000322',  
+     ownerAddress: 'TNtPJVFFGWYRYXUaa1XJhW6MCoNQzW1nkk',  
+     toAddress: 'TXBnjY7CAq39Jj748XLfLd97tXGyknwD1x',  
+     amount: 1,  
+     contractType: 2,  
+     hash: 'a77cadb2722d7489ae9f5007fc88c41fe4fe9cef0de48d01ad684b1144cafb29',  
+     time: 1549896394610,  
+     data: '' } }  
 */
 
 
