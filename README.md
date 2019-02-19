@@ -1,5 +1,5 @@
-Written by @colradi for Community Node Super Representative Organization 
-Contact us on Telegram for scripting services t.me/CommunityNode
+Written by @colradi for Community Node Super Representative Organization  
+Contact us on Telegram for scripting services t.me/CommunityNode  
 GUI Interface coming soon!
 
 This is a script for airdropping tokens (not TRX) based on votes for Super Representative.
@@ -8,11 +8,11 @@ The ratio of tokens to votes can be configured with the multiplier variable
 
 There are two files that work together, generateFile.js and tron\_air.js
 
-generateFile.js will set the SR Candidate whose voters you will be rewarding
-generateFile.js will set the AMOUNT of tokens you will be rewarding per-vote
+generateFile.js will set the SR Candidate whose voters you will be rewarding  
+generateFile.js will set the AMOUNT of tokens you will be rewarding per-vote  
 generateFile.js will fetch an array of voters along with the amount of tokens to be airdropped to each.
 
-The amount of tokens per voter is their number of votes, times the 'multiplier'
+The amount of tokens per voter is their number of votes, times the 'multiplier'  
 This script output will name a new file in the format  
 
 >  votes\_ADDRprefix\_DATE\_at\_TIME.json
@@ -29,14 +29,14 @@ It will contain an array like this:
 > }
 
 
-Your command line output will give you the exact command to call for your specific filename
+Your command line output will give you the exact command to call for your specific filename  
 The airdrop runs with the tron\_air.js script.
 
-tron\_air.js is where you set the token ID for the airdrop
-tron\_air.js is where you set the wallet sending the airdrop 
+tron\_air.js is where you set the token ID for the airdrop  
+tron\_air.js is where you set the wallet sending the airdrop   
 tron\_air.js is where you set the private key for the wallet sending the airdrop.
 
-Do NOT enter the actual value for the private key!  
+Do NOT enter the actual value for the private key!   
 Private key for wallet defined in 'air_address' has to be stored as an environment var  
 $AIRDROP\_PK  
 
@@ -86,5 +86,15 @@ Remember you must have sufficient bandwidth or TRX balance to conduct an airdrop
 
 */
 
+
+
+
+
+
+
+
+
+
+https://apilist.tronscan.org/api/tokenholders?sort=-balance&limit=1000&start=0&count=true&address=TDGy2M9qWBepSHDEutWWxWd1JZfmAed3BP
 
 
